@@ -10,6 +10,12 @@
             width: 95%;
             font: 18px/1.5 sans-serif;
         }
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
     </style>
 
     <div class="example-wrapper">
@@ -18,7 +24,7 @@
         <p>Cuando un usuario acceda a la página con la url /ascii/[palabra] devolver una página con
             una tabla de dos columnas donde en cada fila habrá una letra de la palabra dada en la
             primera columna y su correspondiente código ASCII en la segunda columna.</p>
-        <table border="1">
+        <table>
             <tr>
                 <th>Letra</th>
                 <th>ASCII</th>
